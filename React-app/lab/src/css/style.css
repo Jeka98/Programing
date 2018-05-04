@@ -1,0 +1,25 @@
+body {
+
+}
+
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: block;
+    color: red;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.menu_item {
+    margin-right: 90px;
+    list-style: none;
+}

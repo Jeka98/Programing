@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Pineapple",
+        "price": 2.99,
+        "quantity": 0,
+        "image": "http://www.goodwholefood.com/wp-content/uploads/2015/11/pineapple.jpg" 
+    },
+    {
+        "id": 2,
+        "name": "Coconut",
+        "price": 2.49,
+        "quantity": 0,
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71B4TCc3gFL._SX466_.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Mango",
+        "price": 1.00,
+        "quantity": 0,
+        "image": "http://www.adagio.com/images5/flavor_thumbnail/mango.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Pomegranate",
+        "price": 2.49,
+        "quantity": 0,
+        "image": "https://www.homeremediesweb.com/images/product_pomegranate.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Kiwi",
+        "price": 0.25,
+        "quantity": 0,
+        "image": "https://t4.ftcdn.net/jpg/00/94/89/29/240_F_94892963_5XUXhn3198egUdD5Xet4JIq2F0QmCW88.jpg"
+    }
+]

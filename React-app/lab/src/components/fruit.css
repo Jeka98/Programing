@@ -1,0 +1,26 @@
+.fruit {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    width: 250px;
+    height: 350px;
+}
+
+.img {
+    height: 200px;
+    width: 200px;
+}
+
+.caption {
+    display: block;
+    text-align: center;
+}
+
+.btn-checkout {
+    margin-top: 10px;
+}
+
+.fa {
+    padding: 5px;
+}
