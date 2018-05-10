@@ -9,7 +9,7 @@ const Checkout = (props) => {
             {props.cart.map((item) => {
                 return (
                     <div key={item.id} className="card fruit">
-                        <img className="card-img-top" src={item.image} alt={item.name} />
+                        <img className="card-img-top img" src={item.image} alt={item.name} />
                         <div className="card-body">
                             <p className="card-text caption">Quantity:<br />
                                 <i className="fa fa-minus" aria-hidden="true" onClick={() => props.decreaseQuantity(item.id)}></i>

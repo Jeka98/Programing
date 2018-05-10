@@ -33,5 +33,61 @@
         "price": 0.25,
         "quantity": 0,
         "image": "https://t4.ftcdn.net/jpg/00/94/89/29/240_F_94892963_5XUXhn3198egUdD5Xet4JIq2F0QmCW88.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Banana",
+        "price": 1.49,
+        "quantity": 0,
+        "image": "https://img.wikinut.com/img/181a3ft69et5yxws/jpeg/0/banana.jpeg"
+    },
+    {
+        "id": 7,
+        "name": "Apple",
+        "price": 0.75,
+        "quantity": 0,
+        "image": "http://pluspng.com/img-png/apple-fruit-png-apple-fruit-png-file-248.png"
+    },
+    {
+        "id": 8,
+        "name": "Orange",
+        "price": 1.72,
+        "quantity": 0,
+        "image": "https://media.istockphoto.com/photos/orange-fruit-isolated-on-white-picture-id477836156?k=6&m=477836156&s=612x612&w=0&h=so0IENCIE95_bgdadhstzVSBoAOqEyAnwr1TirAXdsY="
+    },
+    {
+        "id": 9,
+        "name": "Apricots",
+        "price": 0.65,
+        "quantity": 0,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuot5_ZMVcfJyOXcGP1Bev37YSfH0g_Bs8LZ7naRx6BXIwBXBn"
+    },
+    {
+        "id": 10,
+        "name": "Avocado",
+        "price": 1.32,
+        "quantity": 0,
+        "image": "http://a57.foxnews.com/images.foxnews.com/content/fox-news/food-drink/2017/08/22/healthiest-part-avocado-may-be-seed/_jcr_content/par/featured_image/media-0.img.jpg/931/524/1503448316293.jpg?ve=1&tl=1&text=big-top-image"
+    },
+    {
+        "id": 11,
+        "name": "Pear",
+        "price": 0.89,
+        "quantity": 0,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVTW37X8pZXzzALt35rdvUM4xLJkegfnV9a_U3ObPUoWGP4n97iA"
+    },
+    {
+        "id": 12,
+        "name": "Mandarin",
+        "price": 0.95,
+        "quantity": 0,
+        "image": "https://chem-polezno.com/img/mandarin.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Lemon",
+        "price": 1.04,
+        "quantity": 0,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqnbv9NyuUnqIRf4zp8CGKMWca6YU-sRS_M8argfM7vyfSWoAKeQ"
     }
 ]

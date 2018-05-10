@@ -28,7 +28,8 @@ class App extends Component {
       text: '',
       displayName: '',
       isDisabled: true,
-      search:''
+      search:'',
+      fruits: tropicalFruits
     };
   }
 
@@ -117,29 +118,24 @@ class App extends Component {
 
   render() {
 
+    let tropicalFruits = this.state.fruits.filter(
+      (fruit) => {
+        return fruit.name.indexOf(this.state.search) !== -1;
+      }
+    )
 
-    // tropicalFruits = this.props.fruit.filter(
-    //   (fruit) => {
-    //     return fruit.displayName.indexOf(this.state.search) !== -1;
-    //   }
-    // )
-
-
-   // value={this.state.search} onChange={this.updateSearch.bind(this)}
     return (
-      
+
       <Router>
         <div className="App container-fluid">
           <Header />
-
 
           <Route exact path='/Products' component={Products} />
           <Route exact={true} path="/Products" render={() => (
             <div>
               <div>
                 <form>
-                  
-                  <input type="text" icon="search"/>
+                  <input type="text" icon="search" value={this.state.search} onChange={this.updateSearch.bind(this)}/>
                 </form>
               </div>
               <div>
@@ -163,7 +159,6 @@ class App extends Component {
             </div>
           )} />
 
-
           <Route path="/checkout" render={() =>
             <Checkout
               cart={this.state.cart}
@@ -180,7 +175,6 @@ class App extends Component {
 
           <Route exact path='/' component={Homepage} />
           <Route exact path='/About' component={About} />
-            
 
           <Footer />
         </div>
@@ -189,7 +183,6 @@ class App extends Component {
   }
 }
 
-
 const ThankYou = (props) => {
   return (
     <div className="h3 alert alert-success" role="alert">
@@ -197,7 +190,5 @@ const ThankYou = (props) => {
     </div>
   );
 }
-
-
 
 export default App;
