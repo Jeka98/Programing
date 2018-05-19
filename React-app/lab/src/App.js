@@ -13,7 +13,7 @@ import {
   Link
 } from 'react-router-dom';
 
-import './css/font-awesome/css/font-awesome.min.css'
+//import './css/font-awesome/css/font-awesome.min.css'
 import tropicalFruits from './tropical-fruits.json';
 
 
